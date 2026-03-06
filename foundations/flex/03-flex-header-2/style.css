@@ -52,11 +52,18 @@ a {
 
 ul {
   list-style-type: none;
+  /* resolva a lista */
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  display: flex;
 }
 
 
 /* novas especificacoes */
 
-.esquerda {
-
+.esquerda, .direita {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
