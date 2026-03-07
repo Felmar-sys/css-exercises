@@ -24,6 +24,7 @@ body {
   /* aqui iniciamos com os ajustes */
   display: flex;
   padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -40,14 +41,14 @@ body {
 
   /* precisamos dar um toque */
   flex-shrink: 0;
-  margin-right: 16px;
+  /* margin-right: 16px; */
 }
 
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -88,11 +89,19 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* vamos dar mais ultimos toques */
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 /* mais um toque */
 .fundo {
   display: flex;
-  margin-top: 16px;
+  /* margin-top: 16px; */
   gap: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
