@@ -91,3 +91,8 @@ button.cancel {
 }
 
 /* mais um toque */
+.fundo {
+  display: flex;
+  margin-top: 16px;
+  gap: 8px;
+}
