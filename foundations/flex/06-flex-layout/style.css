@@ -47,6 +47,7 @@ ul {
   justify-content: space-between;
   padding: 16px;
 }
+
 .content {
   display: flex;
   flex: 1;
@@ -54,4 +55,14 @@ ul {
   align-items: center;
   flex-direction: column;
   gap: 16px;
+}
+
+a {
+  /* remover sublinado */
+  text-decoration: none;
+  color: #666;
+}
+
+.footer {
+  background: #eee;
 }
