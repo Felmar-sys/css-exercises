@@ -37,6 +37,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* precisamos dar um toque */
+  flex-shrink: 0;
+  margin-right: 16px;
 }
 
 .close-button {
@@ -85,3 +89,5 @@ button.cancel {
   justify-content: space-between;
   align-items: center;
 }
+
+/* mais um toque */
