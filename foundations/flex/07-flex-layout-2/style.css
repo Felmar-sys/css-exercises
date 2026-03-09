@@ -25,6 +25,11 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+/* aplicamos */
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
 .sidebar {
@@ -35,7 +40,6 @@ body {
   /* aplicamos */
   display: flex;
   flex-shrink: 0;
-  height: 300px;;
 }
 
 .card {
@@ -49,4 +53,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
+}
+
+.junto {
+  display: flex;
+  flex: 1;
+}
+
+ul {
+  text-decoration: none;
 }
