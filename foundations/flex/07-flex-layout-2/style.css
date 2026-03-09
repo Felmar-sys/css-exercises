@@ -18,7 +18,9 @@ body {
   display: flex;
   align-items: center;
   padding: 16px;
+  padding: 0 16px;
   font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
@@ -38,14 +40,22 @@ align-items: center;
   box-sizing: border-box;
 
   /* aplicamos */
-  display: flex;
+  /* display: flex; */
   flex-shrink: 0;
+  /* text-decoration: none; */
+  /* list-style: none; */
+  /* font-size: 24px; */
+  /* color: #ffffff; */
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  /* adicionamos */
+  padding: 16px;
+  width: 300px;
 }
 
 /* adicionamos */
@@ -53,6 +63,7 @@ align-items: center;
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
+  gap: 32px;
 }
 
 .junto {
@@ -61,5 +72,19 @@ align-items: center;
 }
 
 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: #fff;
+  font-size: 24px;
   text-decoration: none;
 }
+
+/* note que alguns foram comentado, porque estavam aplicados em lugares noa certos */
